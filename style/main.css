@@ -1,0 +1,42 @@
+html {
+	height: 100%;
+	font-size: 100%;
+	overflow:auto;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	color: #fff;
+	font-size: 76%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+a {
+	color: #666;
+	text-decoration: underline;
+}
+h2 {
+	margin-top: 2em;
+}
+#flashcontent {
+	overflow: hidden;
+}
+#noflash {
+	margin: 20px;
+	text-align: center;
+	
+	
+}
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+h1 {
+	text-align: center;
+}
+#flashcontent #flashmovie object table tr td h2 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+td {
+	font-family: Verdana, Geneva, sans-serif;
+}

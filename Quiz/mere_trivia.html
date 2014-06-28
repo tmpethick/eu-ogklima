@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Mere trivia</title>
+<style type="text/css">
+<!--
+body,td,th {
+	color: #333;
+}
+body {
+	background-color: #CCC;
+}
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: none;
+	color: #999;
+}
+a:active {
+	text-decoration: none;
+	color: #000;
+}
+-->
+</style>
+</head>
+
+<body>
+<SCRIPT LANGUAGE="JavaScript">
+
+
+<!-- Begin
+var ans = new Array;
+var done = new Array;
+var yourAns = new Array;
+var explainAnswer = new Array;
+
+var score = 0;
+ans[1] = "b";
+ans[2] = "c";
+ans[3] = "b";
+ans[4] = "a";
+ans[5] = "b";
+ans[6] = "b";
+
+
+function Engine(question, answer) {
+yourAns[question]=answer;
+}
+
+function Score(){
+var answerText = "Hvordan klarede du quizzen?\n------------------------------------\n";
+for(i=1;i<=6;i++){
+   answerText=answerText+"\nSpørgsmål :"+i+"\n";
+  if(ans[i]!=yourAns[i]){
+    answerText=answerText+"\Forkert. Det rigtige svar er "+ans[i]+"\n";
+  }
+  else{
+    answerText=answerText+" \Rigtigt! \n";
+    score++;
+  }
+}
+
+answerText=answerText+"\n\ndin totale score er : "+score+"\n";
+
+
+alert(answerText);
+
+}
+//  End -->
+</script>
+  
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td align="center" valign="middle">
+<br />
+ <a href="EU_og_klima.html">EU og klima</a> | <a href="Beslutningsprocessen.html">Beslutningsprocessen</a> |<a href="de_store_aftaler.html"> De store aftaler</a> | <a href="Trivia.html">Trivia </a>|<a href="mere_trivia.html"> Mere trivia</a>
+ <br /><br /><br />
+<div style="overflow:auto; height:450px;width:1000px;">
+  <DIV ALIGN="left">
+<h1>EU - og klima quiz</h1>
+<b>Mere trivia</b>
+<hr>
+<FORM>
+<b>1. Hvornår er det EU-dag? </b><br>
+<input type=radio name="q1" value="a" onClick="Engine(1, this.value)">a) 4. maj <br>
+<input type=radio name="q1" value="b" onClick="Engine(1, this.value)">b) 9. maj<p>
+<b>2. Hvor mange børn fik prinsesse Europa med Zeus?</b><br>
+<input type=radio name="q2" value="a" onClick="Engine(2, this.value)">a) 1<br>
+<input type=radio name="q2" value="b" onClick="Engine(2, this.value)">b) 2<br>
+<input type=radio name="q2" value="c" onClick="Engine(2, this.value)">c) 3<p>
+<b>3. Hvilket skandinavisk land benytter euroen?</b><br>
+<input type=radio name="q3" value="a" onClick="Engine(3, this.value)">a) Norge<br>
+<input type=radio name="q3" value="b" onClick="Engine(3, this.value)">b) Finland<br>
+<input type=radio name="q3" value="c" onClick="Engine(3, this.value)">c) Sverige<p>
+<b>4. Hvornår udløber Kyoto-aftalen?</b><br>
+<input type=radio name="q4" value="a" onClick="Engine(4, this.value)">a) 2012<br>
+<input type=radio name="q4" value="b" onClick="Engine(4, this.value)">b) 2016<br>
+<input type=radio name="q4" value="c" onClick="Engine(4, this.value)">c) 2020<p>
+<b>5. Hvorfor er Dansk Folkeparti utilfredse med EF-domstolen? </b><br>
+<input type=radio name="q5" value="a" onClick="Engine(5, this.value)">a) Fordi de synes at EF-domstolen ligger i Luxemborg<br>
+<input type=radio name="q5" value="b" onClick="Engine(5, this.value)">b) Fordi Metokh-dommen, tillader indvandrere at gifte sig til statsborgerskab.<br>
+<input type=radio name="q5" value="c" onClick="Engine(5, this.value)">c) Fordi Domstolen har afgjort at engelsk skal være et europæisk fælles sprog<p>
+<b>6. På engelsk bliver der skelnet mellem de to begreber ”politics” og ”policy”. Hvad betegner ”politics”? </b><br>
+<input type=radio name="q6" value="a" onClick="Engine(6, this.value)">a) Det betegner den måde, som en regering styrer et land på gennem lovgivninger<br>
+<input type=radio name="q6" value="b" onClick="Engine(6, this.value)">b) Det betegner det politiske spil, som foregår at for at skaffe vælgere.<br>
+<input type=radio name="q6" value="c" onClick="Engine(6, this.value)">c) Det betegner måden hvorpå forhandlinger op til et lovforslag fungerer. <p>
+<CENTER>
+<input type=button onClick="Score()" value="resultat">
+</CENTER>
+</FORM>
+</DIV>
+</div>   </td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Beslutningsprocessen</title>
+<style type="text/css">
+<!--
+body,td,th {
+	color: #333;
+}
+body {
+	background-color: #CCC;
+}
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: none;
+	color: #999;
+}
+a:active {
+	text-decoration: none;
+	color: #000;
+}
+-->
+</style></head>
+
+<body>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+
+<!-- Begin
+var ans = new Array;
+var done = new Array;
+var yourAns = new Array;
+var explainAnswer = new Array;
+
+var score = 0;
+ans[1] = "a";
+ans[2] = "a";
+ans[3] = "a";
+ans[4] = "a";
+ans[5] = "c";
+ans[6] = "a";
+
+
+
+
+function Engine(question, answer) {
+yourAns[question]=answer;
+}
+
+function Score(){
+var answerText = "Hvordan klarede du quizzen?\n------------------------------------\n";
+for(i=1;i<=6;i++){
+   answerText=answerText+"\nSpørgsmål :"+i+"\n";
+  if(ans[i]!=yourAns[i]){
+    answerText=answerText+"\Forkert. Det rigtige svar er "+ans[i]+"\n";
+  }
+  else{
+    answerText=answerText+" \Rigtigt! \n";
+    score++;
+  }
+}
+
+answerText=answerText+"\n\ndin totale score er : "+score+"\n";
+
+
+
+alert(answerText);
+
+}
+//  End -->
+</script>
+
+ <body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td align="center" valign="middle">
+<br />
+<a href="EU_og_klima.html">EU og klima</a> | <a href="Beslutningsprocessen.html">Beslutningsprocessen</a> |<a href="de_store_aftaler.html"> De store aftaler</a> | <a href="Trivia.html">Trivia </a>|<a href="mere_trivia.html"> Mere trivia</a><br /><br /><br />
+<div style="overflow:auto; height:450px;width:1000px;">
+<DIV ALIGN="left">
+<h1>EU - og klima quiz</h1>
+<b>Beslutningsprocessen</b>
+<hr>
+<FORM>
+<b>1. Hvem fremsætter forslag i EU?</b><br>
+<input type=radio name="q1" value="a" onClick="Engine(1, this.value)">a) Kommissionen <br>
+<input type=radio name="q1" value="b" onClick="Engine(1, this.value)">b) Ministerrådet<br>
+<input type=radio name="q1" value="c" onClick="Engine(1, this.value)">c) Europa-parlamentet<p>
+<b>2. Hvem har den lovgivende magt i EU?</b><br>
+<input type=radio name="q2" value="a" onClick="Engine(2, this.value)">a) Ministerrådet og Europa-parlamentet, men Ministerrådet er mest magtfuldt<br>
+<input type=radio name="q2" value="b" onClick="Engine(2, this.value)">b) Kommissionen<br>
+<input type=radio name="q2" value="c" onClick="Engine(2, this.value)">c) Europa-parlamentet<br>
+<input type=radio name="q2" value="d" onClick="Engine(2, this.value)">d) Ministerrådet<p>
+<b>3. Har befolkningstallet i de forskellige EU-lande nogen indflydelse på flertalsafgørelser i 
+ministerrådet?</b><br>
+<input type=radio name="q3" value="a" onClick="Engine(3, this.value)">a) Ja, jo flere mennesker, des flere stemmer.<br>
+<input type=radio name="q3" value="b" onClick="Engine(3, this.value)">b) Nej, alle lande har lige meget indflydelse i ministerrådet.<p>
+<b>4. Har befolkningstallet indflydelse på det antal kommissærer det enkelte land udpeger til kommissionen?</b><br>
+<input type=radio name="q4" value="a" onClick="Engine(4, this.value)">a) Nej, alle lande udpeger hver en kommissær. <br>
+<input type=radio name="q4" value="b" onClick="Engine(4, this.value)">b) Jo, de store lande (Tyskland England Frankrig og Italien) udpeger flere kommissærer end de øvrige 23.<p>
+<b>5. Virksomheder kan bl.a. få indflydelse på lovgivningen gennem lobbyarbejde. Hvor mange lobbyister er der registreret i EU’s lobbyistregister?</b><br>
+<input type=radio name="q5" value="a" onClick="Engine(5, this.value)">a) 345 <br>
+<input type=radio name="q5" value="b" onClick="Engine(5, this.value)">b) 1345<br>
+<input type=radio name="q5" value="c" onClick="Engine(5, this.value)">c) 2845<p>
+<b>6. Hvor mange lande skal ratificere (godkende) en ny EU-traktat før den kan træde i kraft?</b><br>
+<input type=radio name="q6" value="a" onClick="Engine(6, this.value)">a) Alle 27 <br>
+<input type=radio name="q6" value="b" onClick="Engine(6, this.value)">b) De fire store (Tyskland Frankrig England Italien) og et flertal (12) blandt resten.<br>
+<input type=radio name="q6" value="c" onClick="Engine(6, this.value)">c) Det afgøres fra traktat til traktat<p>
+</CENTER>
+<input type=button onClick="Score()" value="resultat">
+</CENTER>
+</FORM>
+</DIV>
+</div>   </td>
+</tr>
+</table>
+</body>
+</html>

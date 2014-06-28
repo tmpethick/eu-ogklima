@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Store aftaler</title>
+<style type="text/css">
+<!--
+body,td,th {
+	color: #333;
+}
+body {
+	background-color: #CCC;
+}
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: none;
+	color: #999;
+}
+a:active {
+	text-decoration: none;
+	color: #000;
+}
+-->
+</style>
+</head>
+
+<body>
+
+<HEAD>
+<SCRIPT LANGUAGE="JavaScript">
+
+
+<!-- Begin
+var ans = new Array;
+var done = new Array;
+var yourAns = new Array;
+var explainAnswer = new Array;
+
+var score = 0;
+ans[1] = "b";
+ans[2] = "b";
+ans[3] = "a";
+ans[4] = "c";
+ans[5] = "c";
+
+
+
+
+
+function Engine(question, answer) {
+yourAns[question]=answer;
+}
+
+function Score(){
+var answerText = "Hvordan klarede du quizzen?\n------------------------------------\n";
+for(i=1;i<=5;i++){
+   answerText=answerText+"\nSpørgsmål :"+i+"\n";
+  if(ans[i]!=yourAns[i]){
+    answerText=answerText+"\Forkert. Det rigtige svar er "+ans[i]+"\n";
+  }
+  else{
+    answerText=answerText+" \Rigtigt! \n";
+    score++;
+  }
+}
+
+answerText=answerText+"\n\ndin totale score er : "+score+"\n";
+
+
+alert(answerText);
+
+}
+//  End -->
+</script>
+<!-- STEP TWO: Copy this code into the BODY of your HTML document  -->
+  
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td align="center" valign="middle">
+<br />
+  <a href="EU_og_klima.html">EU og klima</a> | <a href="Beslutningsprocessen.html">Beslutningsprocessen</a> |<a href="de_store_aftaler.html"> De store aftaler</a> | <a href="Trivia.html">Trivia </a>|<a href="mere_trivia.html"> Mere trivia</a>
+  <br /><br /><br />
+<div style="overflow:auto; height:450px;width:1000px;">
+  <DIV ALIGN="left">
+  <h1>EU - og klima quiz</h1>
+  <b>Store aftaler</b>
+  <hr>
+  <FORM>
+    
+  <b>1. Hvornår blev en fælles EU sikkerheds og udenrigspolitik formuleret?</b><br>
+  <input type=radio name="q1" value="a" onClick="Engine(1, this.value)">a) I Rom-traktaten (1957)<br>
+  <input name="q1" type=radio onClick="Engine(1, this.value)" value="b">b) I Maastricht-traktaten (1982)<br>
+  <input type=radio name="q1" value="c" onClick="Engine(1, this.value)">c) I Lissabon-traktaten (2009)<p>
+    
+    
+  <b>2. Hvor mange gange skulle Maastricht-traktaten (Edinburgh-traktaten) til folkeafstemning i Danmark før den blev vedtaget?</b><br>
+  <input type=radio name="q2" value="a" onClick="Engine(2, this.value)">a) 1<br>
+  <input type=radio name="q2" value="b" onClick="Engine(2, this.value)">b) 2<br>
+  <input type=radio name="q2" value="c" onClick="Engine(2, this.value)">c) 3<p>
+    
+  <b>3. Er Danmark med i EU’s fælles sikkerheds- og udenrigspolitik?</b><br>
+  <input type=radio name="q3" value="a" onClick="Engine(3, this.value)">a) Ja, vi vedtog Edinburgh-traktaten<br>
+  <input type=radio name="q3" value="b" onClick="Engine(3, this.value)">b) Nej, det er et af de fire forbehold<p>
+    
+    
+<b>4. I hvilken by blev den Europæiske aftale, der betød optagelse af 10 nye lande i EU, vedtaget?</b><br>
+  <input type=radio name="q4" value="a" onClick="Engine(4, this.value)">a) Amsterdam<br>
+  <input type=radio name="q4" value="b" onClick="Engine(4, this.value)">b) Maastricht<br>
+  <input type=radio name="q4" value="c" onClick="Engine(4, this.value)">c) København<p>
+  
+   <b>5. På EU-topmødet den 8-9 marts 2007 blev der vedtaget at?</b><br>
+  <input type=radio name="q5" value="a" onClick="Engine(5, this.value)">a) Alle EU landene skal inden år 2020 dække 20 procent af deres energiforbrug med energi fra vedvarende energi. <br>
+  <input type=radio name="q5" value="b" onClick="Engine(5, this.value)">b) EU i år 2020 skal have reduceret udslippet af drivhusgasser til 20 procent under 1990-niveauet.<br>
+  <input type=radio name="q5" value="c" onClick="Engine(5, this.value)">c) Begge ovenstående mål.<p>
+  
+  
+  <CENTER>
+  <input type=button onClick="Score()" value="resultat">
+    
+    
+  </CENTER>
+  </FORM>
+</DIV>
+</div>   </td>
+</tr>
+</table>
+</body>
+</html>
